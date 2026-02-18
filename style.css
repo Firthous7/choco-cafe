@@ -1,0 +1,73 @@
+            body{
+                background-color: #39211a;
+            }
+            h1{
+                color: aliceblue;
+                font-size: 100px;
+                text-align: center;
+            }
+            img{
+                width: 99%;
+                height: 500px;
+                border: 3px aliceblue solid;
+                border-radius: 300px;
+            }
+            h6{
+                font-size: 30px;
+                color: aliceblue;
+                text-align: center;
+            }
+            #S1{
+                background-color: aliceblue;
+                color: #39211a;
+                
+            }
+            #S2{
+                background-color: #39211a;
+                color: aliceblue;
+                
+            }
+            body:hover #S1{
+                background-color: #39211a;
+                color: aliceblue;
+                transition: all 5s ease;
+            }
+            body:hover #S2{
+                background-color: aliceblue;
+                color: #39211a;;
+                transition: all 5s ease;
+            }
+            h2{
+                font-size: 40px;
+                color: aliceblue;
+                text-align: center;
+            }
+            .Sub{
+                background-color: aliceblue;
+                text-align: center;
+                width: 350px;
+                font-size: larger;
+                border-radius: 30px;
+                transition: all 0.5s ease;
+            }
+            .Sub img{
+                width: 300px;
+                height: 200px;
+                border: 3px aliceblue solid;
+                border-radius: 20px;
+            }
+            .Sub button{
+                width: 300px;
+                height: 45px;
+                background-color: #39211a;
+                color: aliceblue;
+                font-size: large;
+                border-radius: 20px;
+            }
+            .Main{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .Sub:hover{
+                transform: translateY(-30px);
+            }
